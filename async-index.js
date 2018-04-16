@@ -1,7 +1,7 @@
 var bcrypt = require('bcrypt');
 
-const saltRounds = 10;
-var asyncPassword = 'secret1';
+const saltRounds = 12;
+var asyncPassword = 'secret';
 var myOtherAsyncPassword = 'secret';
 
 // async hashing and salting (recommended)
